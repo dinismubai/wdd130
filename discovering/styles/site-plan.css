@@ -16,7 +16,7 @@ Fonts are separated by a | */
   --accent2-color: #233D4D;
 
   /* change the values below to your chosen font(s) */
-  --heading-font: "Indie Flower";
+  --heading-font: Indie Flower, Open Sans, sans-serif;
   --paragraph-font: Open Sans, sans-serif;
 
   /* these colors below should be chosen from among your palette colors above */
