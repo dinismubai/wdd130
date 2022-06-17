@@ -236,6 +236,161 @@ footer .social img {
     grid-template-columns: repeat(10, 1fr);
 }
 
+/* --------------------------------------------------------Rivers' Page CSS------------------------------------------------------- */
+#rivers {
+    display: grid;
+    grid-template-columns: 1fr;
+    margin-top: 5px;
+}
+
+#rivers-content {
+    max-width: 1600px;
+    margin: 0 auto;
+}
+
+#rivers-msg {
+    margin: auto;
+}
+
+#rivers-msg h1{
+    text-align: center;
+}
+
+.rivers-title {
+    color: #33658a;
+    /*font-family: "Open Sans", "Arial", "sans-serif";*/ 
+    font-family: "Helvetica", "Arial", "sans-serif";
+    font-size: 2em;
+    margin-top: 10px;   
+}
+
+#rivers-wide {
+    max-width: 1600px;
+    /*border: 3px solid green;*/
+}
+
+#rivers-img {
+    display:block;
+    margin:auto;
+    width: 100%;
+    border: 10px solid #f6ae2d;
+    box-shadow: 5px 5px 10px #f26419;
+}
+
+.rivers-grid {
+    display: grid;
+    /*border: 3px solid green;*/
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 2fr 1fr 1fr;
+    margin: 2em;
+}
+
+#main-fork-section {
+    /*border: 3px solid green;*/
+    grid-column: 1/2;
+    grid-row: 1/2;
+    margin: 2em;
+}
+
+#gray-canyon-section {
+    /*border: 3px solid green;*/
+    grid-column: 2/3;
+    grid-row: 1/2;
+    margin: 2em;
+}
+
+#grand-canyon-section {
+    /*border: 3px solid green;*/
+    grid-column: 3/4;
+    grid-row: 1/2;
+    margin: 2em;
+}
+
+#main-fork-picture {
+    /*border: 3px solid green;*/
+    grid-column: 1/2;
+    grid-row: 2/3;
+    margin: 2em;
+}
+
+#main-fork-picture:hover {
+    opacity: 0.5;
+  }
+
+#gray-canyon-picture {
+    /*border: 3px solid green;*/
+    grid-column: 2/3;
+    grid-row: 2/3;
+    margin: 2em;
+}
+
+#gray-canyon-picture:hover {
+    opacity: 0.5;
+  }
+
+#grand-canyon-picture {
+    /*border: 3px solid green;*/
+    grid-column: 3/4;
+    grid-row: 2/3;
+    margin: 2em;
+}
+
+#grand-canyon-picture:hover {
+    opacity: 0.5;
+  }
+
+.rivers-pictures {
+    display:block;
+    margin:auto;
+    width: 100%;
+    box-shadow: 5px 5px 10px #f26419;
+    
+}
+
+#section-four {
+    /*border: 3px solid green;*/
+    grid-column: 1/4;
+    grid-row: 3/4;
+    margin-top: -80px;
+    height: 55%;
+
+    background-color: #33658a;
+    line-height: 1.5em;
+    padding: 35px;
+    box-shadow: 5px 5px 10px #f26419;
+}
+
+#text-four {
+    color: white;
+    font-family: "Open Sans", "Arial", "sans-serif";
+    font-size: 1.3em;
+    text-align: center;
+    font-weight: 550;
+}
+
+.section-title {
+    /*font-family: "Open Sans", "Arial", "sans-serif";*/
+    font-family: "Helvetica", "Arial", "sans-serif";
+    margin: 0;
+    font-size: 1.2em;
+    color: #f26419;
+}
+
+#section-four h2 {
+    font-family: "Helvetica", "Arial", "sans-serif";
+    /*margin: 0;*/
+    font-size: 1.3em;
+    color: white;
+}
+
+.paragraph-text {
+    font-family: "Open Sans", "Arial", "sans-serif";
+    font-size: 1.2em;
+    text-align: justify;
+    font-weight: 500;
+}
+/*----------------------------------------------------------------------------------------------------------------------------------*/
+
 @media screen and (max-width: 900px) {
     #hero, .home-grid {
         display: block;
@@ -272,4 +427,10 @@ footer .social img {
     }
     footer {
         margin-top: 25px;
+    }
+
+    #rivers {
+        display: block;
+        grid-template-columns: 1fr;
+        margin-top: 5px;
     }
