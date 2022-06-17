@@ -265,7 +265,7 @@ footer .social img {
 }
 
 #rivers-wide {
-    /*max-width: 1600px;*/
+    max-width: 1600px;
     display: flex;
     justify-content: space-around;
     /*border: 3px solid green;*/
