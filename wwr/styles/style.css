@@ -244,7 +244,7 @@ footer .social img {
 }
 
 #rivers-content {
-    max-width: 1600px;
+    max-width: 1024px;
     margin: 0 auto;
 }
 
@@ -265,7 +265,9 @@ footer .social img {
 }
 
 #rivers-wide {
-    max-width: 1600px;
+    /*max-width: 1600px;*/
+    display: flex;
+    justify-content: space-around;
     /*border: 3px solid green;*/
 }
 
