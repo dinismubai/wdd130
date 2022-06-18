@@ -429,8 +429,7 @@ footer .social img {
         margin-top: 25px;
     }
 
-    #rivers {
+    #rivers-grid {
         display: block;
-        grid-template-columns: 1fr;
-        margin-top: 5px;
+        height: auto;
     }
