@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Discover Moz</title>
+
+    <link rel="stylesheet" href="styles/style.css">
+</head>
+<body>
+    <div id="body-content">
+        <header>
+            <a id="logo_link" href="index.html">
+                <img class="logo" src="images/logo.jpeg" alt="Dry Oar Logo">
+            </a>
+
+            <nav>
+                <a href="index.html">Home</a>
+                <a href="nature.html">Nature</a>
+                <a href="wildlife.html">Wild Life</a>
+                <a href="contactus.html">Contact Us</a>
+            </nav>
+        </header>
+        <div id="header">
+            
+        </div>
+        <main class="home-grid">
+            <div class="slideshow-container">
+                <div class="mySlides fade"> 
+                    <img src="images/homepage1.jpg" style="width:100%" alt="img">
+                    <div class="headline">Discover Mozambique</div>
+                  </div>
+                
+                  <div class="mySlides fade"> 
+                    <img src="images/homepage2.jpg" style="width:100%" alt="img">
+                    <div class="headline">Discover Mozambique</div>
+                  </div>
+
+            </div>
+                <section id="real-life">
+                        <h1>Why see it in 4K if you can see it in real life?</h1>
+                        <h2>The Adventure Awaits for You</h2> 
+                        <div class="button-box">
+                            <a class="book" href="contactus.html">Book Now</a>
+                        </div>    
+                </section>
+
+                <div id="pictures-grid">
+            
+                    <div id="grid-images1">
+                        <img class="row-images" src="images/page31.jpg" alt="pitures" >
+                    </div>
+                    <div id="grid-images2">
+                        <img class="row-images" src="images/page31.jpg" alt="pitures" >
+                    </div>
+                    <div id="grid-images3">
+                        <img class="row-images" src="images/page31.jpg" alt="pitures" >
+                    </div>
+                    <div id="grid-images4">
+                        <img class="row-images" src="images/page31.jpg" alt="pitures" >
+                    </div>
+                    <div id="grid-images5">
+                        <img class="row-images" src="images/page31.jpg" alt="pitures" >
+                    </div>
+                    <div id="grid-images6">
+                        <img class="row-images" src="images/page31.jpg" alt="pitures" >
+                    </div> 
+                </div>
+
+                <div id="last-section">
+                    
+                    <p>
+                        Traveling is one of the best ways to relax and enjoy the best nature has to offer. Meet Mozambique. 
+                        A country of beauty and amazing landscape. The people there are very welcoming and they will surely 
+                        make you feel at home. Give it a try, go visit Mozambique and it is a promise, you will never forget it. 
+                        Mozambique is located on the South side of Africa and it is divided into 10 provinces. Each of the 
+                        provinces has something unique and special about them. From the amazing sunrises and sunsets to beautiful 
+                        sightseeing. We are here to help you have the best traveling experience ever informing you about everything 
+                        wonderful you will find there.
+                    </p>
+                </div>
+                <div id="talk-button-box">
+                    <a id="talk" href="contactus.html">TALK TO US</a>
+                </div>
+            
+           
+        </main>
+        <footer>
+            <h3>Discover Moz &copy; 2022 - Dinis Mubai</h3>
+            <h3><a href="site-plan.html">Site Plan</a></h3>
+            <h3><a href="contactus.html">Contact Us</a></h3>
+            <div class="social">
+                <a href="https://facebook.com" target="_blank">
+                    <img src="images/facebook.png" alt="twitter icon">
+                </a>
+                <a href="https://twitter.com" target="_blank">
+                    <img src="images/twitter.png" alt="twitter icon">
+                </a>
+                <a href="https://instagram.com" target="_blank">
+                    <img src="images/instagram.png" alt="instagram icon">
+                </a>
+            </div>
+        </footer>
+    </div>
+    <script>
+        let slideIndex = 0;
+        showSlides();
+
+        function showSlides() {
+        let i;
+        let slides = document.getElementsByClassName("mySlides");
+        for (i = 0; i < slides.length; i++) {
+            slides[i].style.display = "none";
+        }
+        slideIndex++;
+        if (slideIndex > slides.length) {slideIndex = 1}
+        slides[slideIndex-1].style.display = "block";
+        setTimeout(showSlides, 3000); // Change image every 3 seconds
+        }
+    </script>
+</body>
+</html>
