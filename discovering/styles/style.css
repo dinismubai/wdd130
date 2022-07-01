@@ -1,3 +1,10 @@
+@import url('https://fonts.googleapis.com/css?family=IM+Fell+French+Canon+SC|Lato');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;1,300&family=Quicksand:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&family=Shadows+Into+Light&display=swap');
+
 body {
     background-color: white;
     font-family: Helvetica, sans-serif;
@@ -7,7 +14,7 @@ body {
 }
 
 header {
-    background-color: #FCCA46;
+    background-color: #233D4D;
     /*font-family: "Open Sans", "Arial", "sans-serif";*/ 
     display: grid;
     grid-template-columns: 150px auto;
@@ -15,17 +22,29 @@ header {
 }
 
 footer {
-    background-color: #FCCA46;
+    background-color: #233D4D;
     /*font-family: "Open Sans", "Arial", "sans-serif";*/ 
     padding: 25px 50px;
     margin-top: 200px;
     display: flex;
     justify-content: space-around;
     align-items: center;
+    font-family: "Open Sans", "sans-serif";
+    color: white;
+    font-size: 1.5em;
+    font-weight: 400;
+}
+
+footer a {
+    color: white;
+    font-size: 1em;
+    font-weight: 400;
+    text-decoration: none;
 }
 
 .logo {
-    width: 80px;
+    width: 120px;
+    height: 100%;
 }
 
 nav {
@@ -35,9 +54,12 @@ nav {
 
 nav a {
     text-align: center;
-    /*color: white;*/
     text-decoration: none;
     padding: 35px;
+    font-family: "Open Sans", "sans-serif";
+    color: white;
+    font-size: 2em;
+    font-weight: 600;
 }
 
 * { margin: 0; padding: 0; }
@@ -66,6 +88,7 @@ nav a {
     top: 10px;
     width: 100%;
     text-align: center;
+    font-family: "Indie Flower", "Open Sans", "sans-serif";
   }
    
   
@@ -78,8 +101,12 @@ nav a {
     background-color: #619B8A;
     line-height: 2em;
     padding: 35px;
-    opacity: 0.4;
+    opacity: 0.6;
     height: 40em;
+}
+
+#real-life h1, h2{
+    font-family: "Open Sans", "sans-serif";
 }
 
 #real-life h1 {
@@ -104,7 +131,6 @@ nav a {
 #talk-button-box {
     text-align: right;
     margin-top: 0.2em;
-
 }
 
 .book {
@@ -112,7 +138,8 @@ nav a {
     color: white;
     text-decoration: none;
     font-family: "Open Sans", "Arial", "sans-serif";
-    font-size: 18px;
+    font-size: 1em;
+    font-weight: 900;
     padding: 2em 9em;
     margin: 50px;
     border-radius: 5px;
@@ -123,10 +150,11 @@ nav a {
     color: white;
     text-decoration: none;
     font-family: "Open Sans", "Arial", "sans-serif";
-    font-size: 18px;
+    font-size: 25px;
     padding: 2em 9em;
     margin: 50px;
     border-radius: 5px;
+    font-weight: 900;
 }
 
 #pictures-grid {
@@ -194,6 +222,10 @@ nav a {
     text-align: justify;
     color: white;
     font-size: 1.5em;
+}
+
+#last-section p {
+    font-family: "Open Sans", "sans-serif";
 }
 
 #top {
@@ -336,6 +368,24 @@ nav a {
     margin: 50px;
     border-radius: 5px;
 }
+
+.book:hover, #talk:hover {
+    background-color: #233D4D;
+    color: aliceblue;
+}
+
+nav a:hover {
+    background-color: #FCCA46;
+    color: white;
+}
+
+#grid-images1:hover, #grid-images2:hover, #grid-images3:hover, #grid-images4:hover, #grid-images5:hover, #grid-images6:hover {
+    opacity: 0.5;
+  }
+
+
+
+
 
 
 
