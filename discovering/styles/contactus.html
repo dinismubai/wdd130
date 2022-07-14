@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Discover Moz</title>
+
+    <link rel="stylesheet" href="styles/style.css">
+</head>
+<body>
+    <div id="body-content">
+        <header>
+            <a id="logo_link" href="index.html">
+                <img class="logo" src="images/logo.jpeg" alt="Dry Oar Logo">
+            </a>
+
+            <div id="navbar">
+                <nav>
+                    <a href="index.html">Home</a>
+                    <a href="nature.html">Nature</a>
+                    <a href="wildlife.html">Wild Life</a>
+                    <a href="contactus.html">Contact Us</a>
+                </nav>
+            </div>
+        </header>
+        <div id="header">
+            
+        </div>
+
+<form action="//submit.form" id="ContactUs100" method="post" onsubmit="return ValidateForm(this);">
+    <script type="text/javascript">
+    function ValidateForm(frm) {
+    if (frm.Name.value == "") { alert('Name is required.'); frm.Name.focus(); return false; }
+    if (frm.FromEmailAddress.value == "") { alert('Email address is required.'); frm.FromEmailAddress.focus(); return false; }
+    if (frm.FromEmailAddress.value.indexOf("@") < 1 || frm.FromEmailAddress.value.indexOf(".") < 1) { alert('Please enter a valid email address.'); frm.FromEmailAddress.focus(); return false; }
+    if (frm.Comments.value == "") { alert('Please enter comments or questions.'); frm.Comments.focus(); return false; }
+    return true; }
+    </script>
+    <table style="width:100%;max-width:550px;border:0;" cellpadding="8" cellspacing="0">
+    <tr> <td>
+    <label for="Name">Name*:</label>
+    </td> <td>
+    <input name="Name" type="text" maxlength="60" style="width:100%;max-width:250px;" />
+    </td> </tr> <tr> <td>
+    <label for="PhoneNumber">Phone number:</label>
+    </td> <td>
+    <input name="PhoneNumber" type="text" maxlength="43" style="width:100%;max-width:250px;" />
+    </td> </tr> <tr> <td>
+    <label for="FromEmailAddress">Email address*:</label>
+    </td> <td>
+    <input name="FromEmailAddress" type="text" maxlength="90" style="width:100%;max-width:250px;" />
+    </td> </tr> <tr> <td>
+    <label for="Comments">Comments*:</label>
+    </td> <td>
+    <textarea name="Comments" rows="7" cols="40" style="width:100%;max-width:350px;"></textarea>
+    </td> </tr> <tr> <td>
+    * - required fields
+    </td> <td>
+    <div style="float:right"><a href="https://www.100forms.com" id="lnk100" title="form to email">form to email</a></div>
+    <input name="skip_Submit" type="submit" value="Submit" />
+    <script src="https://www.100forms.com/js/FORMKEY:XAJX2SUKSEUB/SEND:my@email.com" type="text/javascript"></script>
+    </td> </tr>
+    </table>
+    </form>
+
+    <footer>
+        <h3>Discover Moz &copy; 2022 - Dinis Mubai</h3>
+        <h3><a href="site-plan.html">Site Plan</a></h3>
+        <h3><a href="contactus.html">Contact Us</a></h3>
+        <div class="social">
+            <a href="https://facebook.com" target="_blank">
+                <img src="images/facebook.png" alt="twitter icon">
+            </a>
+            <a href="https://twitter.com" target="_blank">
+                <img src="images/twitter.png" alt="twitter icon">
+            </a>
+            <a href="https://instagram.com" target="_blank">
+                <img src="images/instagram.png" alt="instagram icon">
+            </a>
+        </div>
+    </footer>
+</div>
+</body>
+</html>
