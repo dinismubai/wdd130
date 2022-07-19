@@ -330,7 +330,14 @@ nav a {
 #top-image {
     margin-top: -1em;
     width: 100%;
-    height: 25em;
+    /*height: 25em;*/
+}
+
+
+#top-image-wild{
+    margin-top: -1em;
+    width: 100%;
+    /*height: 25em;*/
 }
 
 
